@@ -1,0 +1,41 @@
+{
+  "espiownage": {
+    "Overview": "/",
+    "espiownage core": "core.html",
+    "Console Scripts": "script_doc.html"
+   },
+   "Ring Counts": {
+       "Real Data": "count_in_crops_real.html",
+       "CycleGAN Data": "count_in_crops_cyclegan.html",
+       "(New)Fake Data": "count_in_crops_fake2.html",
+       "Pre-cleaned '15 or more' Real Data": "count_in_crops_preclean.html",
+       "Old SPNet Real Data": "count_in_crops_spnet.html"
+   },
+    "Bounding Boxes" : {
+        "Real Data": "iv_bbox_real.html",
+        "CycleGAN Data": "iv_bbox_cyclegan.html",
+        "CycleGAN Data -OBPR": "IceVision-on-espiownage-cyclegan-obpr.html",
+        "(New)Fake Data": "iv_bbox_fake2.html",
+        "Pre-cleaned '15 or more' Real Data": "IceVision-on-espiownage-preclean.html",
+        "Old SPNet Real Data": "iv_bbox_spnet.html"
+    },
+    "Segmentation": {
+        "Real Data (one class)": "seg_allone_real.html",
+        "CycleGAN Data (one class)": "seg_allone_cyclegan.html",
+        "CycleGAN Data (multiclass)": "seg_multiclass_cyclegan.html",
+        "(New)Fake Data (one class)": "seg_allone_fake2.html",
+        "Regression - Real Data": "seg_reg_real.html",
+        "Regression - CAMVID test": "seg_reg_camvid.html"
+    },
+    "K-Fold Testing" : {
+      "Ring Count K-Fold" : "kfold_count_in_crops_real.html",
+      "Boundig Box K-Fold": "kfold_bboxes.html",
+      "BB K-Fold (old)": "iv_bboxes_real_kfold_train.html",
+      "Segmentation Regression K-Fold" : "kfold_seg_reg_real.html"
+    },
+    "Inference" : {
+      "Bounding Boxes": "inference_iv_bb.html",
+      "Rings from BBoxes": "infer_rings_in_crops.html",
+      "Segmentation Regression": "pred_segreg_bulk.html"
+    }
+}
